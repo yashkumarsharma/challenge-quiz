@@ -1,0 +1,33 @@
+.container {
+  margin-bottom: 16px;
+
+  .score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .scoreBars {
+    position: relative;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+    .bar {
+      position: absolute;
+      height: 20px;
+    }
+
+    .maxScoreBar {
+      background: lightgrey;
+    }
+
+    .scoreBar {
+      background: grey;
+    }
+
+    .lowestPossibleScoreBar {
+      background: black;
+    }
+  }
+}
